@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Andale Mono, monospace;
+}
+
+body {
+    background-color: #D0CFD1;
+}
+
+#horror {
+    background-color: #c2042d;
+}
+
+#misc{
+    background-color: #ebdc15;
+}
+
+#classics {
+    background-color: #2bd0fd;
+}
+
+/* top menu background */
+.bg-dark {
+    background-color: #9c9b9b !important;
+    height: 100px;
+}
+
+/*brand color */
+.navbar-dark .navbar-brand {
+    color: #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000000;
+    white-space: nowrap;
+    padding-right: 30px;
+    background-color: #9c9b9b;
+}
+
+.navbar {
+    font-size: 36px;
+    text-align: right;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+/* collapsible menu customization */
+.mr-auto{
+    background-color: #9c9b9b;
+    width: 300px;
+    float:right;
+    margin-right: 10px;
+}
+
+.flex-menu{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 100%;
+    height: 700px;
+}
+
+.welcome-box {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    margin: 10px 10px;
+    border: dashed 2px #000000;
+    overflow: auto;
+}
+
+.info-box {
+    width: 700px;
+    height: 350px;
+    background-color: white;
+    margin: 10px 10px;
+    border: dashed 2px #000000;
+    overflow: auto;
+}
+
+.support-box {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin: 10px 10px;
+    border: dashed 2px #000000;
+    overflow: auto;
+}
+
+/* text inside menu boxes */
+.flex-menu h1 {
+    font-family: courier;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: bold;
+    
+}
+.flex-menu p, .flex-menu li {
+    padding: 5px 10px;
+}
+
+/* grid setup */
+.grid {
+    margin: 10px 10px;
+    column-count: 5;
+    column-gap: 2em;
+    /*width: 98%;*/
+}
+.preview {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.preview img {
+  width: 100%;
+}
+.preview button {
+    margin: auto;
+    width: 100%;
+}
+.preview p, em {
+    padding-top: 5px;
+    font-family: sans-serif;
+    text-align: center;
+}
